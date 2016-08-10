@@ -18,6 +18,9 @@ html {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
 
   h1, h2, h3, h4, h5, h6 {
     margin: 0 0 1.3rem;
@@ -26,4 +29,50 @@ html {
 
 ul, ol, p {
   margin: 0 0 1.3rem;
+}
+
+.masthead {
+  background-color: e2e2e2;
+  text-align: center;
+
+}
+
+.logo{
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.logo-img {
+  
+  width: 100%;
+}
+
+
+.nav_top {
+  margin: 0;
+  padding: 10px;
+  overflow: hidden;
+
+  background-color: #ccc;
+
+  list-style-type: none;
+}
+
+.nav_top li:first-child {
+  float: left;
+}
+
+.nav_top li:last-child {
+  float: right;
+}
+
+.nav_top a {
+  display: inline-block;
+  padding: .5em .8em;
+
+  background-color: #666;
+  color: #fff;
+
+  text-decoration: none;
 }
