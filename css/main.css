@@ -44,7 +44,7 @@ ul, ol, p {
 }
 
 .logo-img {
-  
+
   width: 100%;
 }
 
@@ -75,4 +75,57 @@ ul, ol, p {
   color: #fff;
 
   text-decoration: none;
+}
+
+/* Main Section */
+
+.main {
+  padding: 1.3rem 10px;
+
+}
+
+.intro {
+  font-size: 1.125rem;
+}
+
+section {
+  padding: 1.3rem 0;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+
+}
+
+.img-boxes {
+  margin: 0 -5px;
+  padding: 0;
+  overflow: hidden;
+  width: calc(100% +10px);
+  list-style-type: none;
+}
+
+.img-fig {
+  margin: 0;
+  padding: 0;
+  position: relative;;
+}
+
+.img-boxes > li {
+  float: left;
+  width: calc(50% - 10px);
+  margin: 0 5px 10px;
+}
+
+.img-box-img {
+  display: block;
+  width: 100%;
+}
+
+.img-text {
+  padding: .5rem;
+  bottom: 1.3rem;
+  position: absolute;;
+  width: 100%;
+  background-color: rgba(0, 0, 0, .2);
+  text-align: center;
+
 }
